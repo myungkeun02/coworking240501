@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.myungkeun.coworking240501.dto.request.MemberSignupRequest;
 import org.myungkeun.coworking240501.dto.response.BaseResponse;
 import org.myungkeun.coworking240501.dto.response.IsDuplicateEmailResponse;
+import org.myungkeun.coworking240501.dto.response.IsDuplicateNicknameResponse;
 import org.myungkeun.coworking240501.dto.response.MemberSignupResponse;
 import org.myungkeun.coworking240501.service.impl.MemberService;
 import org.springframework.http.HttpStatus;

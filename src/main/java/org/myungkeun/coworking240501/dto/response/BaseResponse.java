@@ -9,6 +9,6 @@ import lombok.*;
 @Builder
 
 public class BaseResponse<T> {
-    private Long statusCode;
+    private long statusCode;
     private T data;
 }
